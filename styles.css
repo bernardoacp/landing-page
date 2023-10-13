@@ -4,12 +4,14 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .header {
   background-color: #1F2937;
+  padding: 0 100px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -24,11 +26,41 @@ body {
   gap: 20px;
 }
 
+.hero {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 100px;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+button {
+  padding: 5px 20px;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bold;
+}
+
 ul {
   list-style-type: none;
 }
 
-a {
+a, .hero-secondary {
   text-decoration: none;
   font-size: 18px;
   color: #E5E7EB;
