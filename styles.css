@@ -46,6 +46,43 @@ body {
   color: #F9FAF8;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.info-text {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.infos {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 150px;
+  gap: 10px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  border: 3px;
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 15px;
+} 
+
 button {
   padding: 5px 20px;
   margin-top: 5px;
