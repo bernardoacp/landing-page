@@ -83,6 +83,29 @@ body {
   border-radius: 15px;
 } 
 
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 0 200px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: lighter;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 24px;
+  color: #1F2937;
+  font-weight: bold;
+}
+
 button {
   padding: 5px 20px;
   margin-top: 5px;
