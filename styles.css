@@ -106,21 +106,51 @@ body {
   font-weight: bold;
 }
 
+.balloon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  padding: 30px 80px;
+  background-color: #3882F6;
+  border-radius: 5px;
+  gap: 50px;
+}
+
+.balloon-title {
+  color: #F9FAF8;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 button {
   padding: 5px 20px;
   margin-top: 5px;
-  border: 0;
+  border: 2px solid black;
   border-radius: 5px;
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: bold;
 }
 
+.button1 {
+  border-color: #3882F6;
+}
+
+.button2 {
+  border-color:#F9FAF8;
+}
+
+.button1:hover, .button2:hover {
+  background-color: #F9FAF8;
+  color: #3882F6;
+}
+
 ul {
   list-style-type: none;
 }
 
-a, .hero-secondary {
+a, .hero-secondary, .balloon-text {
   text-decoration: none;
   font-size: 18px;
   color: #E5E7EB;
